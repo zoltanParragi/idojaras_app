@@ -22,6 +22,6 @@ A világ fővárosaira vonatkozó aktuális időjárás és 5 napos időjárás 
 - A megjelenő legördülő listából kiválaszthatjuk a megfelelő várost.
 - A kiválasztás után megjelennek az adott városra vonatkozó aktuális és 5 napos előrejelzési adatok.
 - A hőmérséklet adatok áttekintését grafikon segíti.
-- A lekéréskor az adatbázisban mentésre kerül az adott város neve, az 5 napos előrejelzési adatok, a kliens IP címe éa a lekérés ideje.
+- A lekéréskor az adatbázisban mentésre kerül az adott város neve, az 5 napos előrejelzési adatok, a kliens IP címe és a lekérés ideje.
 
 
