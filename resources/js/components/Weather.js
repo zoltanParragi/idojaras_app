@@ -38,7 +38,7 @@ function Weather() {
         setCountryAndCity(string)
         setSearchTerm(string);
         
-        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=fa39c5bc16b0c5cc01a7a68f2d64ba2c`)
+        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=API_KEY`)
         .then(res => res.json())
         .then(res => {
             setLon(res[0].lon)
@@ -48,7 +48,7 @@ function Weather() {
 
     useEffect(() => {
         (lon !== null && lat !== null)  && 
-            fetch(`http://api.weatherapi.com/v1/forecast.json?key=d880102d60f84025b7f233017231007&q=${lat},${lon}&days=5&aqi=no&alerts=no
+            fetch(`http://api.weatherapi.com/v1/forecast.json?key=API_KEY&q=${lat},${lon}&days=5&aqi=no&alerts=no
             `)
             .then(res => res.json())
             .then(res => {
