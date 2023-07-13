@@ -7,7 +7,7 @@ A világ fővárosaira vonatkozó aktuális időjárás és 5 napos időjárás 
 - Frontend: ReactJS
 - HTML/CSS keretrendszer: Bootstrap
 - Google charts
-- Backend: Laravel
+- Backend: Laravel 8.83.27
 - Adatbázis: MySQL
 
 ## API-k
