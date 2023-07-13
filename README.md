@@ -1,6 +1,6 @@
 # Időjárás App
 
-A világ fővárosaira vonatkozó aktuális időjárás és 5 napos időjárás előrekjelzés adatok megjelenítése és naplózása.
+A világ fővárosaira vonatkozó aktuális időjárás és 5 napos időjárás előrejelzés adatok megjelenítése és naplózása.
 
 ## Felhasznált technológiák
 
