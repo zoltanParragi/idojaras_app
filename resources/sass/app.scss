@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/* .main {
+    background: #dfdfdf;
+    min-height: 100hv !important;
+} */
+
+
+
+.container-fluid {
+    background: #dfdfdf;
+}
+
+header {
+    height: 5rem;
+}
+
+main.container-fluid {
+    min-height: calc(100vh - 5rem - 48px);
+}
+
+.form-control{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.form-control:focus {
+    border: 1px solid #bdbcbc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 92, 92, 0.6);
+}
+
+button.btn.dropdown-toggle {
+    border: none;
+}
+
+.dropdown-menu {
+    max-height: 380px;
+    overflow: hidden;
+}
+
+.border-bottom:last-child {
+    border: none; 
+}
